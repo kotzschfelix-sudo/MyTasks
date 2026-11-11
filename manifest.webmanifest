@@ -1,0 +1,11 @@
+{
+  "name": "MyTasks – MyDigital",
+  "short_name": "MyTasks",
+  "description": "Deine Aufgaben übersichtlich organisiert.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101118",
+  "theme_color": "#11121a",
+  "icons": []
+}
