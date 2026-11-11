@@ -25,7 +25,7 @@ MyTasks und MyKalender verwenden dasselbe Supabase-Projekt und dieselbe Anmeldun
 
 Die Tabelle hat Row Level Security (RLS). Nutzer können nur ihre eigenen Aufgaben lesen und ändern. MyKalender zeigt die Aufgaben im Menüpunkt **Aufgaben** an und kann den Erledigt-Status speichern.
 
-**Hinweis zur Aktualisierung:** Die Apps laden Aufgaben beim Öffnen bzw. über „Aktualisieren“ neu. Eine Live-Synchronisierung ohne Neuladen (Realtime) ist noch nicht eingebaut.
+**Live-Synchronisierung:** Änderungen an Aufgaben werden über Supabase Realtime zwischen MyTasks und MyKalender übertragen. Falls die Verbindung vorübergehend ausfällt, kannst du die Ansicht über „Aktualisieren“ neu laden.
 
 ## Technik
 
