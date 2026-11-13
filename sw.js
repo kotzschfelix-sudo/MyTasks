@@ -1,4 +1,4 @@
-const CACHE='mytasks-v5';
+const CACHE='mytasks-v6';
 const FILES=['./','./index.html','./manifest.webmanifest','./icons/mytasks.svg'];
 
 self.addEventListener('install',event=>{
